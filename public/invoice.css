@@ -1,0 +1,58 @@
+/* ChatGPT */
+
+/* Set mouse cursor */
+body {
+    cursor: 1
+}
+
+.custom-cursor {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.custom-cursor {
+    background-image: url('https://i.giphy.com/media/3mqVz3vMXg4NADoH8p/200w.gif');
+}
+
+
+/* Set background image*/
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.wallpapersafari.com/69/1/t2S3Tu.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Add some basic styles for better presentation to nav bar*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+    background-color: lightgreen;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    background-color:rgb(29, 110, 26);
+    color: rgb(197, 27, 27);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: lightgreen;
+}

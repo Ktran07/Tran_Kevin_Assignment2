@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Xmas Invoice
+  </title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+
+ <!-- Web Tab Icon -->
+   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3778/3778483.png" type="image/png">
+  <!-- CSS -->
+  <link href="invoice.css" rel="stylesheet">
+
+      <!-- Products-->
+  <script src="./products.js"></script>
+</head>
+ <body>
+
+ <!-- Navigation Bar -->
+ <nav> 
+  <a href="index.html"> 🎀 🅷🅾🅼🅴 🎀</a> 🎗️
+  <a href="products_display.html">❄️🅿🆁🅾🅳🆄🅲🆃🆂❄️</a>  </nav>
+
+  
+  <!-- Invoice Table -->
+  <section class="container mt-5" id="invoice-table" style="background-color: #f5f5f5; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <div class="row justify-content-center">
+      <h1><b>🎁 Invoice 🎁</b></h1>
+        <div class="col-md-12">
+            <table class="table table-bordered border-christmas" style="background-color: #ffffff; border-radius: 10px; overflow: hidden; width: 100%; font-size: 18px;">
+              <thead style="background-color: #d32f2f; color: #ffffff;">
+                    <tr>
+                        <th style="width: 50px;"></th>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Extended Price</th>
+                    </tr>
+                </thead>
+                <tbody id="invoiceTableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+  </section>  
+  <div class="container mt-3 text-center">
+      <input type="button" class="btn btn-danger btn-block" value="Logout" onclick="location.href='./logout?username=${username}'">
+  </div>
+
+  <!-- Bootstrap & jQuery JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JS -->
+    <script src="./invoice.js"></script>
+ </body>
+</html>

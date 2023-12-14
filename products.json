@@ -1,0 +1,32 @@
+[
+    {"name": "THE POLAR EXPRESS™ Train Ride Ticket to The North Pole [GRAND EDITION]",
+        "price": 125,
+        "image": "images/North_Pole.avif", 
+        "qty_available": 1000,
+		"total_sold": 0  
+	},
+
+    {"name": "Baymax Santa Christmas Yard Decoration ",
+		"price": 100,
+		"image": "https://i.etsystatic.com/18599143/r/il/fa63b9/3772968562/il_570xN.3772968562_muxo.jpg", 
+		"qty_available": 1000,
+		"total_sold": 0    },
+
+	{"name": "Christmas Bag of Something",
+		"price": 100,
+		"image": "images/Something.jpg", 
+		"qty_available": 1000,
+		"total_sold": 0    },
+
+    {"name": "Peanuts Snoopy & Woodstock Christmas Yard Decoration",
+		"price": 80,
+		"image": "images/Snoopy.jpg", 
+		"qty_available": 1000,
+		"total_sold": 0  },
+
+    {"name": "Doraemon Christmas Figure Collectible Decoration",
+		"price": 20,
+		"image": "images/Doremon.webp", 
+		"qty_available": 1000,
+		"total_sold": 0    }
+]

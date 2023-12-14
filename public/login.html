@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+      <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+      <!-- CSS -->
+    <style> body {display: flex;  align-items: center;  justify-content: center;}
+        .login-size {width: 100%;  max-width: 400px;    padding: 15px;}     </style>
+
+  <!-- Web Tab Icon -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3778/3778483.png" type="image/png">
+
+</head>
+<body>
+        <!-- Form  -->
+    <section class="container mt-5 login-size">
+        <form id="login_form" action="./login" method="POST">
+            <h2 class="text-center">Login</h2>
+            <input type="text" class="form-control mb-2" placeholder="Enter email" id="username" name="username">
+                <span id="emailInputError_HTML"></span>
+            <input type="password" class="form-control mb-2" placeholder="Enter password" id="password" name="password">
+                <span id="passwordInputError_HTML"></span>
+            <input type="submit" class="btn btn-primary w-100" value="Login">
+        </form>
+        <form id="register_form" action="./register.html" method="GET">
+            <h2 class="text-center mt-4">Don't have an account?</h2>
+            <input type="submit" class="btn btn-success w-100" value="Sign Up" >
+        </form>
+    </section>
+
+
+
+  <!-- Bootstrap & jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="login.js"></script>
+</body>
+</html>

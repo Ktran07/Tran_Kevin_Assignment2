@@ -1,0 +1,533 @@
+body {
+    cursor: url()  1 1, auto
+}
+
+.custom-cursor {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.custom-cursor {
+    /* ... other styles ... */
+    background-image: url('https://giffiles.alphacoders.com/212/212261.gif');
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#specialButton {
+    background-color: rgb(63, 177, 253); /* Blue background color */
+    color: #ffffff; /* White text color */
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 1.3s ease-in-out;
+}
+
+#specialButton:hover {
+    background-color: #3de0a2; /* Darker blue on hover */
+}
+
+
+/* Add some basic styles for better presentation to nav bar*/
+body {
+    background-image: url('https://cdn.wallpapersafari.com/17/55/jQzfGN.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Pacifico', 'Dancing Script', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    text-align: center;
+    margin: 3px;
+    background-color: rgb(233, 13, 13); /* Set the background color for highlighting */
+    padding: 0.2px; /* Optional: Add padding for better visual appearance */
+}
+
+nav {
+    background-color: #1d7938;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color:  lightgreen;
+}
+
+  /* Customized green button */
+  button {
+    font-family: 'Cursive', sans-serif;
+    background-color: #c00;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+div {
+    text-align: center;
+    margin-top: 350px; /* Add space above the text */
+}
+
+button:hover {
+    background-color: rgb(38, 226, 38);
+}
+
+
+/* Snowflake animation */
+.snowflakes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.snowflake {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color: #ecf023;
+    font-size: 50px;
+    line-height:0;
+    animation: fall 20s linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-200vh);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+
+/* Rocking bunny doggo*/ 
+.Doggo {
+    position: absolute;
+    top: 51%;
+    left: 500vw; 
+    width: 200px;
+    height: 200px;
+    background-image: url('https://i.pinimg.com/originals/1c/f6/58/1cf65821c553719881726197d9e77d8d.gif'); /* Replace with your Doggo image */
+    background-size: cover;
+    animation: fly 10s linear infinite;
+}
+
+@keyframes fly {
+    0% {
+        left: 100vw; 
+        transform: translateY(-50%);
+    }
+    100% {
+        left: -100px; 
+        transform: translateY(-50%);
+    }
+}
+
+/* Christmas Town */ 
+.santa {
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    width: 600px;
+    height: 200px;
+    background-image: url('https://media.istockphoto.com/id/1281286323/vector/winter-night-city-in-retro-style-christmas-background-with-houses-christmas-tree-snowman.jpg?s=612x612&w=0&k=20&c=wDbXu_QCfKAvKAMTNs6QF-0TZQP5be4-LcBj3KMuckw='); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 9.8s linear infinite;
+}
+
+@keyframes fly {
+    0% {
+        left: -100px;
+        transform: translateY(-50%);
+    }
+    100% {
+        left: 100vw;
+        transform: translateY(-50%);
+    }
+}
+
+
+/* Santa Clause with his reindeer */
+.grinch {
+    position: absolute;
+    bottom: 47%;
+    left: -100px;
+    width: 300px;
+    height: 200px;
+    background-image: url('https://www.icegif.com/wp-content/uploads/2021/12/icegif-818.gif'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 10s linear infinite;
+}
+
+/* AMONGUS black */
+.HOHOHO {
+    position: absolute;
+    bottom: 50%;
+    left: -100px;
+    width: 200px;
+    height: 200px;  
+    background-image: url('https://media2.giphy.com/media/f7EQf9PU3sEkOiFmBH/giphy.gif?cid=6c09b95257rinyxb5pu72979yjf6i75mdo9y90wye2kt79fc&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 13s linear infinite;
+}
+
+/* AMONGUS */
+.AMONGUS {
+    position: absolute;
+    bottom: 50%;
+    left: -100px;
+    width: 200px;
+    height: 200px;  
+    background-image: url('https://media0.giphy.com/media/YpPZPIemS24peVXDJG/giphy.gif?cid=6c09b952uflashv2jkokkka6bbvabub9l4wh0nrjd4smbxig&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 14s linear infinite;
+}
+
+/* AMONGUS */
+.Ghosting {
+    position: absolute;
+    bottom: 50%;
+    left: -80px;
+    width: 200px;
+    height: 200px;  
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4b1ceee5-9458-4434-80bc-fc5d83a2ea88/dedtvj9-50ab803c-ffe1-4ee8-9a56-4b491175987c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRiMWNlZWU1LTk0NTgtNDQzNC04MGJjLWZjNWQ4M2EyZWE4OFwvZGVkdHZqOS01MGFiODAzYy1mZmUxLTRlZTgtOWE1Ni00YjQ5MTE3NTk4N2MuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GZU-o7wk8NJVD0FPDNVBO94_g7fd8NHkIZF1Re9HU8w'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 11s linear infinite;
+}
+
+/* AMONGUS */
+.Red {
+    position: absolute;
+    bottom: 45%;
+    left: -80px;
+    width: 200px;
+    height: 230px;  
+    background-image: url('https://media0.giphy.com/media/02UcS4abtGiipuMkBa/giphy.gif?cid=790b7611cpyuy7r21pfwrah8ip1kd8nrj6iryar3yydibezg&ep=v1_gifs_search&rid=giphy.gif&ct=s'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 12s linear infinite;
+}
+
+/* PACMAN */
+.PACMAN {
+    position: absolute;
+    bottom: 50%;
+    left: -100px;
+    width: 200px;
+    height: 200px;  /* when putting at 100 pacman stuck right at the title x width 300px */
+    background-image: url('https://www.icegif.com/wp-content/uploads/2023/08/icegif-215.gif'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 17s linear infinite;
+}
+
+/* Snowy top*/
+.Snowy {
+    position: absolute;
+    bottom: 50%;
+    left: -100px;
+    width: 1000px;
+    height: 250px;  /* when putting at 100 pacman stuck right at the title x width 300px */
+    background-image: url('https://i.gifer.com/3sjl.gif'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 15s linear infinite;
+}
+
+/* Snowman */
+.SnowyThrow {
+    position: absolute;
+    top: 50%;
+    left: -200px;
+    width: 280px;
+    height: 230px;
+    background-image: url('https://img.pikbest.com/png-images/20191129/cartoon-cute-winter-christmas-snowman-gif_2663028.png!bw700'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 13s linear infinite;
+}
+
+/* Car */
+.Car {
+    position: absolute;
+    top: 50%;
+    left: -200px;
+    width: 370px;
+    height: 230px;
+    background-image: url('https://img2.embroiderydesigns.com/PrintArt/Large/SunnyBunnySVG/PGSB1272.jpg'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 9s linear infinite;
+}
+
+
+@keyframes fly {
+    0% {
+        left: -100px;
+        transform: translateY(-50%);
+    }
+    100% {
+        left: 100vw;
+        transform: translateY(-50%);
+    }
+}
+
+
+/* Santa Dance Bottom */
+.Dance {
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    width: 250px;
+    height: 200px;
+    background-image: url('https://media.baamboozle.com/uploads/images/153804/1608041764_533336'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 18s linear infinite;
+}
+
+/* Reindeer */
+.Reindeer {
+    position: absolute;
+    top: 50.5%;
+    left: -100px;
+    width: 300px;
+    height: 200px;
+    background-image: url('https://i.pinimg.com/originals/d3/f2/ac/d3f2ac5f12e312ddd570acaedc69cd41.gif'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 18s linear infinite;
+}
+
+/* Xmas tree on truck */
+.Background {
+    position: absolute;
+    top: 45%;
+    left: -200px;
+    width: 180px;
+    height: 300px;
+    background-image: url('https://phoneky.co.uk/thumbs/screensavers/down/spiritual/christmast_s8ciybqq.gif'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 9s linear infinite;
+}
+
+
+
+/* Customer Decorate Tree Bottom*/
+.Decorate {
+    position: absolute;
+    top: 51%;
+    left: -100px;
+    width: 300px;
+    height: 200px;
+    background-image: url('https://media1.giphy.com/media/aCP58rnEAOgW1RscMk/200w.gif?cid=82a1493bzis0vqma331izju4jygljyswhqc8xl9ew7qembi6&ep=v1_gifs_related&rid=200w.gif&ct=s'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 16s linear infinite;
+}
+
+/* Customer with products*/
+.DJ {
+    position: absolute;
+    top: 51%;
+    left: -100px;
+    width: 300px;
+    height: 200px;
+    background-image: url('https://media0.giphy.com/media/GyZDdrsK4jNfTCZv7A/giphy.gif?cid=6c09b952exbvbtdpng6cp6wwmnkwqxvm8cqmu47sgr0quxfn&ep=v1_stickers_related&rid=giphy.gif&ct=s'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 15s linear infinite;
+}
+
+
+/* Walking Customer */
+.Walking {
+    position: absolute;
+    top: 51%;
+    left: -100px;
+    width: 300px;
+    height: 200px;
+    background-image: url('https://media0.giphy.com/media/DS1TGKrVK7n2vocNuR/200w.gif?cid=82a1493b0y5t4y8y8j3k1arz154b4csgxv83gszrqfrce34l&ep=v1_gifs_related&rid=200w.gif&ct=s'); /* Replace 'santa.png' with the path to your Santa image */
+    background-size: cover;
+    animation: fly 25s linear infinite;
+}
+
+
+@keyframes fly {
+    0% {
+        left: -100px;
+        transform: translateY(-50%);
+    }
+    100% {
+        left: 100vw;
+        transform: translateY(-50%);
+    }
+}
+
+
+/* adjust snowflake colors */
+.snowflakex {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    animation: snowfall 7s linear infinite;
+}
+
+@keyframes snowfall {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+    }
+}
+
+
+/* Create multiple snowflakes with different positions and animation delays */
+.snowflakex:nth-child(1) {
+    left: 10%;
+    animation-duration: 3s;
+}
+
+.snowflakex:nth-child(2) {
+    left: 20%;
+    animation-duration: 12s;
+}
+
+.snowflakex:nth-child(3) {
+    left: 40%;
+    animation-duration: 14s;
+}
+
+.snowflakex:nth-child(4) {
+    right: 10%;
+    animation-duration: 12s;
+}
+
+.snowflakex:nth-child(5) {
+    right: 20%;
+    animation-duration: 16s;
+}
+
+.snowflakex:nth-child(6) {
+    right: 40%;
+    animation-duration: 15s;
+}
+
+.snowflakex:nth-child(7) {
+    right: 13%;
+    animation-duration: 13s;
+}
+
+.snowflakex:nth-child(8) {
+    right: 24%;
+    animation-duration: 13s;
+}
+
+.snowflakex:nth-child(9) {
+    right: 46%;
+    animation-duration: 11s;
+}
+
+.snowflakex:nth-child(10) {
+    left: 13%;
+    animation-duration: 12s;
+}
+
+.snowflakex:nth-child(11) {
+    left: 24%;
+    animation-duration: 15s;
+}
+
+.snowflakex:nth-child(12) {
+    left: 46%;
+    animation-duration: 13s;
+}
+
+
+
+.snowflakex:nth-child(13) {
+    left: 10%;
+    animation-duration: 15s;
+}
+
+.snowflakex:nth-child(14) {
+    left: 20%;
+    animation-duration: 17s;
+}
+
+.snowflakex:nth-child(15) {
+    left: 40%;
+    animation-duration: 13s;
+}
+
+.snowflakex:nth-child(16) {
+    right: 10%;
+    animation-duration: 16s;
+}
+
+.snowflakex:nth-child(17) {
+    right: 20%;
+    animation-duration: 15s;
+}
+
+.snowflakex:nth-child(18) {
+    right: 40%;
+    animation-duration: 12s;
+}
+
+.snowflakex:nth-child(19) {
+    right: 13%;
+    animation-duration: 11s;
+}
+
+.snowflakex:nth-child(20) {
+    right: 24%;
+    animation-duration: 10s;
+}
+
+.snowflakex:nth-child(21) {
+    right: 46%;
+    animation-duration: 13s;
+}
+
+.snowflakex:nth-child(22) {
+    left: 13%;
+    animation-duration: 10s;
+}
+
+.snowflakex:nth-child(23) {
+    left: 24%;
+    animation-duration: 14s;
+}
+
+.snowflakex:nth-child(24) {
+    left: 46%;
+    animation-duration: 13s;
+}

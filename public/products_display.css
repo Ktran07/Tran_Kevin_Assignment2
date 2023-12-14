@@ -1,0 +1,112 @@
+/* ChatGPT  */
+
+body {
+    cursor: none
+}
+
+/* Customize cursor*/
+.custom-cursor {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.custom-cursor {
+    /* ... other styles ... */
+    background-image: url('https://66.media.tumblr.com/c78ee0bb96f9feb8949b016543d4344c/tumblr_o96yf3dm4C1s13tcmo1_500.gif');
+}
+
+
+
+/* Add some basic styles for better presentation to nav bar*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+    background-color: lightgreen;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: url('https://cdn.wallpapersafari.com/69/1/t2S3Tu.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color:rgb(29, 110, 26);
+    color: rgb(197, 27, 27);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: lightgreen;
+}
+
+
+
+Add styling to Products_display cards
+.card {
+    border: 2px solid #c70039;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    background-color: #f9f7f7;
+}
+
+.product-image {
+    border-radius: 15px 0 0 15px;
+}
+
+.card-title {
+    color: #c70039;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.card-text {
+    color: #228B22;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+label {
+    margin: 5px;
+    color: #c70039;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.inputBox {
+    border-radius: 10px;
+    border: 2px solid #c70039;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ccffcc;
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+} 
+
+
+.btn-container {
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 20px;  /* make space away from bottom corner */
+  }
